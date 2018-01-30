@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	margin: 140px;
+
+}
+
+
+header {
+	background:url("../images/blog_header_bg.jpg");
+	background-size: cover;
+	height: 239px;
+	width: 1000px;
+	margin: 25px;
+}
+
+.gallery-text {
+	color: white;
+	padding:100px;
+	text-align: center;
+	color:white;
+	font-family: 'Raleway';
+}
+
+
+a {
+		text-decoration:none;
+	}
+
+a:hover{
+	color:#7B98AA;
+
+}
+
+nav a{
+	color:#7B98AA;
+	font-size: 16px;
+	margin: 60px;
+
+}
+
+
+header a {
+	color:white;
+	font-size: 37px;
+
+}
+
+.container {
+	margin: 0px 175px 0px 175px;
+}
+
+
+
+nav{
+	font-family: 'Raleway';
+	font-size: 16px;
+	text-align: center;
+}
+
+h1{
+	color:#44545E;
+	font-family: 'Raleway';
+	text-align: center;
+}
+
+h3{
+	font-family: 'Raleway';
+	color:#44545E;
+	text-align: left;
+	font-size: 18px;
+	}
+
+h2{
+	font-family: 'Raleway';
+	color:#44545E;
+	text-align: left;
+	font-size: 23px;
+
+}
+
+
+p{
+	font-family: 'lato';
+	font-size: 15px;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+
+}
+
+
+li {
+	font-family: "raleway";
+	font-size: 15px;
+}
+
+li a {
+	color:#7B98AA;
+}
+
+footer {
+	background-color: #CDF3F6;
+	text-align: center;
+	color:#44545E;
+	margin: 25px;
+}
+
+hr{
+	border-top: 1px solid #44545E;
+
+}
+
+footer i{
+	margin:25px
+
+}
+
+footer a {
+	color:#44545E;
+	font-weight:bold;
+	font-size: 15px;
+}
+
+footer p {
+	color:#44545E;
+	font-size: 15px;
+}
