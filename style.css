@@ -4,17 +4,20 @@
 Base Styles
 ------------------------------------------- */
 body {
-	margin: 140px;
+
 
 }
 
 
 header {
-	background:url("../images/blog_header_bg.jpg");
-	background-size: cover;
-	height: 239px;
-	width: 1000px;
-	margin: 25px;
+	background:url("../images/blog_header_bg.jpg") no-repeat center center;
+	background-image: cover;
+	margin: 25px 0px;
+}
+
+h1 {
+	padding-top: 130px;
+	padding-bottom: 130px;
 }
 
 .gallery-text {
@@ -22,16 +25,15 @@ header {
 	padding:100px;
 	text-align: center;
 	color:white;
-	font-family: 'Raleway';
-}
 
+}
 
 a {
 		text-decoration:none;
 	}
 
 a:hover{
-	color:#7B98AA;
+	color:#44545E;
 
 }
 
@@ -42,44 +44,52 @@ nav a{
 
 }
 
-
 header a {
 	color:white;
 	font-size: 37px;
+	padding-top:130px;
+	padding-bottom:130px;
+	font-weight: 600;
+	letter-spacing: 12px;
+
 
 }
 
-.container {
-	margin: 0px 175px 0px 175px;
+.grid-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 50px;
+	margin: 60px;
 }
 
 
+nav, h1,h3,h2, li {
+	font-family: 'Raleway';
+	font-weight: 600;
+}
 
 nav{
-	font-family: 'Raleway';
 	font-size: 16px;
 	text-align: center;
+	margin-top:10px;
 }
 
 h1{
 	color:#44545E;
-	font-family: 'Raleway';
 	text-align: center;
 }
 
 h3{
-	font-family: 'Raleway';
+
 	color:#44545E;
 	text-align: left;
 	font-size: 18px;
 	}
 
 h2{
-	font-family: 'Raleway';
 	color:#44545E;
 	text-align: left;
 	font-size: 23px;
-
 }
 
 
@@ -96,7 +106,6 @@ img {
 
 
 li {
-	font-family: "raleway";
 	font-size: 15px;
 }
 
@@ -109,6 +118,8 @@ footer {
 	text-align: center;
 	color:#44545E;
 	margin: 25px;
+	font-family: 'lato';
+	font-weight: 400;
 }
 
 hr{
@@ -117,7 +128,7 @@ hr{
 }
 
 footer i{
-	margin:25px
+	margin:50px 20px 30px 20px
 
 }
 
@@ -130,4 +141,27 @@ footer a {
 footer p {
 	color:#44545E;
 	font-size: 15px;
+	margin:25px;
 }
+
+button, input {
+	outline: none;
+	color: #44545E;
+	padding: 5px 12px 5px 15px;
+	margin: 25px;
+	text-align: center;
+}
+
+button {
+	background-color:transparent;
+	border: 2px solid #44545E;
+}
+
+/*input {
+	text-align: center;
+	margin: 25px;
+	font-family: 'lato';
+	padding: 5px 12px 5px 15px;
+	color: #44545E;
+}
+*/
